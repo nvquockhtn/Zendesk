@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources >
-	<color name="green">#80ac15</color>
+	<color name="green">#80AC15</color>
 	<color name="cyan">#33B5E5</color>
 	<color name="white">#ffffff</color>
 	<color name="orange">#f49600</color>
+	<color name="orange1">#f59900</color>
+    <color name="orange2">#ef9602</color>
+    <color name="orange3">#e39005</color>
+    <color name="orange4">#dd8c05</color>
+    <color name="grey05">#e28e03</color>
 </resources>

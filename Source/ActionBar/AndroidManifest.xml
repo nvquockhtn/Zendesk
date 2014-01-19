@@ -41,6 +41,11 @@
             android:screenOrientation="portrait"
             >
         </activity>
+        <activity
+            android:name="info.androidhive.actionbar.LoginActivity"
+            android:screenOrientation="portrait"
+            >
+        </activity>
         <!-- Search results activity -->
         <activity android:name=".SearchResultsActivity"
             android:parentActivityName="info.androidhive.actionbar.MainActivity"

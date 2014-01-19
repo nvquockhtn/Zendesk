@@ -16,7 +16,7 @@
         android:ems="10"
         android:hint="Full name"
         android:background="@color/white"
-         android:layout_marginBottom="4dp" />
+         android:layout_marginBottom="6dp" />
 
     <EditText
         android:id="@+id/editText2"
@@ -25,7 +25,7 @@
         android:ems="10"
         android:hint="Email"
         android:background="@color/white"
-        android:layout_marginBottom="4dp" />
+        android:layout_marginBottom="6dp" />
 
     <EditText
         android:id="@+id/editText3"
@@ -34,7 +34,7 @@
         android:ems="10"
         android:hint="Phone number"
         android:background="@color/white"
-        android:layout_marginBottom="4dp" />
+        android:layout_marginBottom="6dp" />
 
     <EditText
         android:id="@+id/editText4"
@@ -43,7 +43,7 @@
         android:ems="10"
         android:hint="Company" 
         android:background="@color/white"
-        android:layout_marginBottom="4dp"/>
+        android:layout_marginBottom="6dp"/>
 
     <EditText
         android:id="@+id/editText5"
@@ -52,7 +52,7 @@
         android:ems="10"
         android:hint="Subdomaint"
         android:background="@color/white"
-        android:layout_marginBottom="4dp" />
+        android:layout_marginBottom="6dp" />
     <EditText
         android:id="@+id/editText5"
         android:layout_width="match_parent"
@@ -60,7 +60,7 @@
         android:ems="10"
         android:hint="Password"
         android:background="@color/white"
-        android:layout_marginBottom="4dp" />
+        android:layout_marginBottom="6dp" />
     <EditText
         android:id="@+id/editText5"
         android:layout_width="match_parent"
@@ -68,7 +68,7 @@
         android:ems="10"
         android:hint="Comfirm password"
         android:background="@color/white"
-        android:layout_marginBottom="4dp" />
+        android:layout_marginBottom="6dp" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -98,7 +98,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Agree to Terms and Conditions $ Privacy Policy"
-            android:textSize="10dp" />
+            android:textSize="12dp" />
     </LinearLayout>
 
     <Button

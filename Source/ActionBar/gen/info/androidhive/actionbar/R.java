@@ -16,7 +16,12 @@ public final class R {
     public static final class color {
         public static final int cyan=0x7f050001;
         public static final int green=0x7f050000;
+        public static final int grey05=0x7f050008;
         public static final int orange=0x7f050003;
+        public static final int orange1=0x7f050004;
+        public static final int orange2=0x7f050005;
+        public static final int orange3=0x7f050006;
+        public static final int orange4=0x7f050007;
         public static final int white=0x7f050002;
     }
     public static final class dimen {
@@ -32,55 +37,62 @@ public final class R {
     public static final class drawable {
         public static final int btn_register=0x7f020000;
         public static final int btn_sigin=0x7f020001;
-        public static final int ic_action_direction=0x7f020002;
-        public static final int ic_action_help=0x7f020003;
-        public static final int ic_action_location_found=0x7f020004;
-        public static final int ic_action_place=0x7f020005;
-        public static final int ic_action_refresh=0x7f020006;
-        public static final int ic_action_search=0x7f020007;
-        public static final int ic_checkin=0x7f020008;
-        public static final int ic_latitude=0x7f020009;
-        public static final int ic_launcher=0x7f02000a;
-        public static final int ic_location=0x7f02000b;
-        public static final int ic_my_places=0x7f02000c;
-        public static final int ico_actionbar=0x7f02000d;
-        public static final int logo=0x7f02000e;
-        public static final int selector=0x7f02000f;
-        public static final int zendesk_big1=0x7f020010;
-        public static final int zendesk_big2=0x7f020011;
+        public static final int custom_button=0x7f020002;
+        public static final int entry_small_logo=0x7f020003;
+        public static final int ic_action_direction=0x7f020004;
+        public static final int ic_action_help=0x7f020005;
+        public static final int ic_action_location_found=0x7f020006;
+        public static final int ic_action_place=0x7f020007;
+        public static final int ic_action_refresh=0x7f020008;
+        public static final int ic_action_search=0x7f020009;
+        public static final int ic_checkin=0x7f02000a;
+        public static final int ic_latitude=0x7f02000b;
+        public static final int ic_launcher=0x7f02000c;
+        public static final int ic_launcher_icon=0x7f02000d;
+        public static final int ic_location=0x7f02000e;
+        public static final int ic_my_places=0x7f02000f;
+        public static final int ico_actionbar=0x7f020010;
+        public static final int logo=0x7f020011;
+        public static final int selector=0x7f020012;
+        public static final int zendesk_big1=0x7f020013;
+        public static final int zendesk_big2=0x7f020014;
     }
     public static final class id {
-        public static final int action_check_updates=0x7f0b0014;
-        public static final int action_help=0x7f0b0013;
-        public static final int action_location_found=0x7f0b0011;
-        public static final int action_refresh=0x7f0b0012;
-        public static final int action_search=0x7f0b0010;
-        public static final int action_settings=0x7f0b0015;
-        public static final int btn_segister=0x7f0b000d;
-        public static final int btn_sigin=0x7f0b000c;
-        public static final int button1=0x7f0b0009;
-        public static final int checkBox1=0x7f0b0008;
-        public static final int editText1=0x7f0b0001;
-        public static final int editText2=0x7f0b0002;
-        public static final int editText3=0x7f0b0003;
-        public static final int editText4=0x7f0b0004;
-        public static final int editText5=0x7f0b0005;
-        public static final int imageView1=0x7f0b000b;
-        public static final int imgIcon=0x7f0b000e;
+        public static final int action_check_updates=0x7f0b0017;
+        public static final int action_help=0x7f0b0016;
+        public static final int action_location_found=0x7f0b0014;
+        public static final int action_refresh=0x7f0b0015;
+        public static final int action_search=0x7f0b0013;
+        public static final int action_settings=0x7f0b0018;
+        public static final int btn_segister=0x7f0b0010;
+        public static final int btn_sigin=0x7f0b000f;
+        public static final int button1=0x7f0b0005;
+        public static final int checkBox1=0x7f0b000d;
+        public static final int editText1=0x7f0b0006;
+        public static final int editText2=0x7f0b0007;
+        public static final int editText3=0x7f0b0008;
+        public static final int editText4=0x7f0b0009;
+        public static final int editText5=0x7f0b000a;
+        public static final int edt_email_login=0x7f0b0002;
+        public static final int edt_password_login=0x7f0b0003;
+        public static final int edt_yourdomain_login=0x7f0b0004;
+        public static final int imageView1=0x7f0b0001;
+        public static final int imgIcon=0x7f0b0011;
         public static final int progressBar=0x7f0b0000;
-        public static final int spinner1=0x7f0b0007;
-        public static final int textView1=0x7f0b0006;
-        public static final int txtQuery=0x7f0b000a;
-        public static final int txtTitle=0x7f0b000f;
+        public static final int spinner1=0x7f0b000c;
+        public static final int textView1=0x7f0b000b;
+        public static final int txtQuery=0x7f0b000e;
+        public static final int txtTitle=0x7f0b0012;
     }
     public static final class layout {
         public static final int action_progressbar=0x7f030000;
         public static final int activity_location_found=0x7f030001;
-        public static final int activity_main=0x7f030002;
-        public static final int activity_register=0x7f030003;
-        public static final int activity_search_results=0x7f030004;
-        public static final int index=0x7f030005;
-        public static final int list_item_title_navigation=0x7f030006;
+        public static final int activity_login=0x7f030002;
+        public static final int activity_main=0x7f030003;
+        public static final int activity_register=0x7f030004;
+        public static final int activity_search_results=0x7f030005;
+        public static final int index=0x7f030006;
+        public static final int list_item_title_navigation=0x7f030007;
     }
     public static final class menu {
         public static final int activity_main_actions=0x7f0a0000;

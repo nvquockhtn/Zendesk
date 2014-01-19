@@ -17,34 +17,31 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:layout_marginTop="10dp"
          >
-
         <Button
-            android:id="@+id/btn_sigin"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:background="#ef8b00"
-            android:paddingRight="10dp"
-            android:text="Login" />
+        android:id="@+id/btn_sigin"
+        android:layout_width="107dp"
+        android:layout_height="42dp"
+        android:textColor="#ffffff"
+        android:shadowRadius="1.2"
+        android:text="Login"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/custom_button"
+        android:layout_marginRight="10dp"
+         />
         
-        <ImageButton
-            android:id="@+id/btn_segister"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/selector"
-            android:src="@drawable/btn_register"
-            android:focusable="true" />
+        <Button
+        android:id="@+id/btn_segister"
+        android:layout_width="107dp"
+        android:layout_height="42dp"
+        android:background="@drawable/custom_button"
+        android:textColor="#ffffff"
+        android:shadowRadius="1.2"
+        android:text="Register" />
     </LinearLayout>
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="107dp"
-        android:layout_height="wrap_content"
-        android:background="#ef8b00"
-        android:paddingBottom="4dp"
-        android:paddingTop="4dp"
-        android:textColor="#ffffff"
-        
-        android:text="Button" />
+    
     
 </LinearLayout>
