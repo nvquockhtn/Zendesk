@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/green"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:gravity="center_horizontal"
+     >
+
+	<ImageView
+	    android:id="@+id/imageView1"
+	    android:layout_width="124dp"
+	    android:layout_height="wrap_content"
+	    android:layout_marginBottom="50dp"
+	    android:layout_marginTop="15dp"
+	    android:src="@drawable/entry_small_logo" />
+
+	<EditText
+	    android:id="@+id/edt_email_login"
+	    android:layout_width="match_parent"
+	    android:layout_height="34dp"
+	    android:layout_marginBottom="8dp"
+	    android:background="@color/white"
+	    android:ems="10"
+	    android:hint="Email"
+	    android:paddingLeft="3dp"
+	    android:textSize="14dp" />
+	
+    <EditText
+        android:id="@+id/edt_password_login"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Password"
+        android:paddingLeft="3dp"
+        android:password="true"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/edt_yourdomain_login"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/white"
+        android:hint="yourdomain.zendesk.com"
+        android:paddingLeft="3dp"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_button"
+        android:text="Sign in"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+        
+</LinearLayout>

@@ -16,8 +16,7 @@
         android:layout_centerInParent="true"
         android:textSize="30dp"
         android:textStyle="normal"
-        android:textColor="#ffffff"
-        android:fontFamily="sans-serif" />
+        android:textColor="#ffffff"/>
     
 
 </RelativeLayout>

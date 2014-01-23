@@ -26,8 +26,8 @@ public class IndexActivity extends Activity {
 		btnSigin.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				Intent mainActivity = new Intent(IndexActivity.this, LoginActivity.class);
-				startActivity(mainActivity);
+				Intent loginActivity = new Intent(IndexActivity.this, LoginActivity.class);
+				startActivity(loginActivity);
 			}
 		});
 		btnRegister.setOnClickListener(new OnClickListener() {
