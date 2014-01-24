@@ -23,7 +23,7 @@ public class PropertyLoader {
 	private boolean hasCredentials = false;
 	private String tokenVendingMachineURL = null;
 	private boolean useSSL = false;
-	private String tableName = null;
+	private String testTableName = null;
 	
 	private static PropertyLoader instance = null;
 	
@@ -42,13 +42,13 @@ public class PropertyLoader {
 			
 			this.tokenVendingMachineURL = properties.getProperty( "tokenVendingMachineURL" );
 			this.useSSL = Boolean.parseBoolean( properties.getProperty( "useSSL" ) );
-			this.tableName = properties.getProperty( "TableName" );
+			this.testTableName = properties.getProperty( "testTableName" );
 			
-			if ( this.tokenVendingMachineURL == null || this.tokenVendingMachineURL.equals( "" ) || this.tokenVendingMachineURL.equals( "CHANGEME" ) || this.tableName.equals( "" ) ) {
+			if ( this.tokenVendingMachineURL == null || this.tokenVendingMachineURL.equals( "" ) || this.tokenVendingMachineURL.equals( "CHANGEME" ) || this.testTableName.equals( "" ) ) {
 				this.tokenVendingMachineURL = null;
 				this.useSSL = false;
 				this.hasCredentials = false;
-				this.tableName = null;
+				this.testTableName = null;
 			}
 			else {
 				this.hasCredentials = true;
@@ -72,7 +72,7 @@ public class PropertyLoader {
 	}
 	
 	public String getTestTableName() {
-		return this.tableName;
+		return this.testTableName;
 	}
 	
 }

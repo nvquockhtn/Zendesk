@@ -15,11 +15,11 @@
 
 package com.amazonaws.tvmclient;
 
-import info.androidhive.actionbar.PropertyLoader;
 import android.content.SharedPreferences;
 
 import com.amazonaws.AmazonServiceException;
 import com.amazonaws.auth.AWSCredentials;
+import info.androidhive.actionbar.PropertyLoader;
 import com.amazonaws.regions.Region;
 import com.amazonaws.regions.Regions;
 import com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient;
